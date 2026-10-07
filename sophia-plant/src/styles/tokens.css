@@ -1,0 +1,20 @@
+:root {
+    /* Cores */
+    --color-background: #FFFDF0;
+    --color-primary: #44632E;
+    --color-secondary: #B3CFA3;
+    --color-flower: #FFDAF0;
+    --color-soil: #AA8D65;
+  
+    /* Radius */
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+  
+    /* Espaçamento */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-4: 16px;
+    --space-6: 24px;
+    --space-8: 32px;
+  }
