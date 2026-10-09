@@ -1,0 +1,93 @@
+[
+    {
+      "id": "receitas-de-minas",
+      "date": "2026-03",
+      "maturity": "seed",
+      "tech": ["HTML", "CSS"],
+      "github": "https://github.com/sophiaferreira1a/receitas-de-minas",
+      "image": "/projects/receitas-de-minas.gif",
+      "name": { "pt": "Receitas de Minas", "en": "Minas Recipes" },
+      "description": {
+        "pt": "Sistema web de gerenciamento de receitas.",
+        "en": "Web system for managing recipes."
+      }
+    },
+    {
+      "id": "mini-ecommerce-cards",
+      "date": "2026-05",
+      "maturity": "flower",
+      "tech": ["HTML", "CSS"],
+      "github": "https://github.com/sophiaferreira1a/trabalho-pr-tico-semana-9-sophiaferreira1a",
+      "image": "/projects/mini-ecommerce-cards.gif",
+      "name": { "pt": "Mini Ecommerce – Catálogo em Cards", "en": "Mini Ecommerce – Card Catalog" },
+      "description": {
+        "pt": "Catálogo em cards construído em atividade hands-on.",
+        "en": "Card catalog built in a hands-on activity."
+      }
+    },
+    {
+      "id": "receitas-da-dona-nice",
+      "date": "2026-05",
+      "maturity": "sprout",
+      "tech": ["HTML", "CSS"],
+      "github": "https://github.com/sophiaferreira1a/receitas-da-dona-nice",
+      "image": "/projects/receitas-da-dona-nice.gif",
+      "name": { "pt": "Receitas da Dona Nice", "en": "Dona Nice's Recipes" },
+      "description": {
+        "pt": "Site de receitas que foca em navegação simples e UI/UX acessível a todas as idades.",
+        "en": "Recipe website focused on simple navigation and UI/UX accessible to all ages."
+      }
+    },
+    {
+      "id": "perniloco",
+      "date": "2026-06",
+      "maturity": "flower",
+      "tech": ["Python", "Pygame"],
+      "github": "https://github.com/sophiaferreira1a/perniloco",
+      "image": "/projects/perniloco.gif",
+      "name": { "pt": "Perniloco", "en": "Perniloco" },
+      "description": {
+        "pt": "Jogo em Pygame em que você controla um mosquito que desvia de obstáculos em fases com dificuldade crescente.",
+        "en": "Pygame game where you control a mosquito dodging obstacles across levels of increasing difficulty."
+      }
+    },
+    {
+      "id": "clima-api",
+      "date": "2026-08",
+      "maturity": "flower",
+      "tech": ["Java", "Spring Boot", "Open-Meteo"],
+      "github": "https://github.com/sophiaferreira1a/ClimaAPI",
+      "image": "/projects/clima-api.gif",
+      "name": { "pt": "Clima API", "en": "Weather API" },
+      "description": {
+        "pt": "API REST em Spring Boot que devolve o clima atual de uma cidade, consumindo a API pública Open-Meteo com arquitetura em camadas.",
+        "en": "Spring Boot REST API that returns a city's current weather, consuming the public Open-Meteo API with a layered architecture."
+      }
+    },
+    {
+      "id": "acesso-puc",
+      "date": "2026-09",
+      "maturity": "flower",
+      "tech": ["Java", "Spring Boot", "Spring Mail", "HTML", "CSS"],
+      "github": "https://github.com/sophiaferreira1a/AcessoPUC",
+      "image": "/projects/acesso-puc.gif",
+      "name": { "pt": "AcessoPUC", "en": "AcessoPUC" },
+      "description": {
+        "pt": "Simulação do login, cadastro e recuperação de senha da PUC, com API REST de usuários e envio real de e-mail pela Spring Mail.",
+        "en": "Simulation of PUC's login, signup and password recovery, with a user REST API and real email delivery via Spring Mail."
+      }
+    },
+    {
+      "id": "nexamed",
+      "date": "2026-09",
+      "maturity": "seed",
+      "tech": ["HTML", "CSS", "Java"],
+      "github": "https://github.com/sophiaferreira1a/NexaMed",
+      "image": "/projects/nexamed.gif",
+      "name": { "pt": "NexaMed", "en": "NexaMed" },
+      "description": {
+        "pt": "Sistema de gerência hospitalar.",
+        "en": "Hospital management system."
+      }
+    }
+]
