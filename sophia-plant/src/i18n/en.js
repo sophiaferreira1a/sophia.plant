@@ -11,7 +11,10 @@ const en = {
         title: "Project's Garden",
         subtitle: "Tap a plant to see the project",
         viewMore: "View more",
+        notFound: "Project not found",
+        back: "Back",
     },
+
     lang: {label: "PT"}, //O que o botão mostra ao clicar
     maturity: {seed: "Seed", sprout: "Sprout", flower:"Flower"},
 };

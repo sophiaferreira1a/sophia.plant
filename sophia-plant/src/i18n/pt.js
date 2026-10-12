@@ -12,6 +12,8 @@ const pt = {
         title: "Jardim de projetos",
         subtitle: "Toque numa planta para ver o projeto",
         viewMore: "Ver mais",
+        notFound: "Projeto não encontrado",
+        back: "Voltar",
     },
     lang: {label: "EN"}, //O que o botão mostra ao clicar
     maturity: {seed: "Semente", sprout: "Broto", flower:"Flor"},
