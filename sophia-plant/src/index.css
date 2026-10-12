@@ -1,12 +1,47 @@
 @import "tailwindcss";
 @import './styles/tokens.css';
 
-@theme {
-    --color-cream: #fffdf0;
-    --color-leaf: #44632e;
-    --color-sprout: #b3cfa3;
-    --color-petal: #ffdaf0;
-    --color-soil: #aa8d65;
 
-    --font-display: "Georgia", serif;
+/* puxa o HEX direto to tokens.css */
+@theme {
+    --color-cream: var(--color-background); 
+    --color-leaf: var(--color-primary);
+    --color-sprout: var(--color-secondary);
+    --color-moss: var(--color-moss);
+    --color-petal: var(--color-flower);
+    --color-soil: var(--color-soil); 
+    --color-sand: var(--color-sand);
+  
+    --font-display: var(--font-display);
+    --font-sans: var(--font-sans);
 }
+
+/* box-sizing global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    font-family: var(--font-sans);
+}
+
+/* seleção de texto */
+::selection {
+    background: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.font-display {
+    font-family: var(--font-display);
+}
+  

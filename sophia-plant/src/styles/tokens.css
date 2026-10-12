@@ -1,20 +1,30 @@
 :root {
-    /* Cores */
-    --color-background: #FFFDF0;
-    --color-primary: #44632E;
-    --color-secondary: #B3CFA3;
-    --color-flower: #FFDAF0;
-    --color-soil: #AA8D65;
+  /* Cores */
+  --color-background: #FBF9F1;
+  --color-primary: #3B5832;
+  --color-secondary: #C7DCA7;
+  --color-moss: #E8F0DC;
+  --color-flower: #F9E0EE;
+  --color-soil: #B59876;
+  --color-sand: #E5E0B0;    
   
-    /* Radius */
-    --radius-sm: 8px;
-    --radius-md: 16px;
-    --radius-lg: 24px;
-  
-    /* Espaçamento */
-    --space-1: 4px;
-    --space-2: 8px;
-    --space-4: 16px;
-    --space-6: 24px;
-    --space-8: 32px;
-  }
+  /* Tipografia */
+  --font-display: "Lora", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  /* Espaçamento */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+}
