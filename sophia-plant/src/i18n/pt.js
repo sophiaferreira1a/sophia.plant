@@ -7,6 +7,7 @@ const pt = {
         experiences: "Experiências",
         contact: "Contato",
         home: "Início",
+        greenhouse: "Estufa",
     },
     projects: {
         title: "Jardim de projetos",

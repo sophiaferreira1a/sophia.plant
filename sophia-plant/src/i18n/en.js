@@ -6,6 +6,7 @@ const en = {
         experiences: "Experiences",
         contact: "Contact",
         home: "Home",
+        greenhouse: "Greenhouse",
     },
     projects: {
         title: "Project's Garden",

@@ -10,6 +10,7 @@ const links = [ /*dados do menu de renderização. (Pra mudar um texto do menu, 
     {to: "/projetos", key: "menu.projects"},
     {to: "/experiencias", key: "menu.experiences"},
     {to: "/contato", key: "menu.contact"},
+    {to: "/estufa", key: "menu.greenhouse"},
 
 ];
 
