@@ -15,6 +15,107 @@ const en = {
         notFound: "Project not found",
         back: "Back",
     },
+    home: {
+        hero: {
+            title: "Growing software with purpose.",
+            description:
+                "Software Developer focused on building modern, accessible, and sustainable web solutions using React, Java, Spring Boot, and solid architectural practices.",
+            supportText:
+                "Sophia.Plant is an ecosystem of projects, learning, and continuous growth built to transform ideas into meaningful digital experiences.",
+            projects: "View Projects",
+            contact: "Get in Touch",
+            cardTitle:
+                "Building solutions in constant evolution.",
+            cardDescription:
+                "Each project is treated as a growing plant: carefully planned, purposefully developed, and continuously improved."
+        },
+    
+        about: {
+            tag: "01 - About",
+            title: "Who is behind Sophia.Plant?",
+            subtitle:
+                "Technology, continuous learning, and solution building.",
+            paragraph1:
+                "I am a software development student passionate about technology, user experience, and problem solving.",
+            paragraph2:
+                "Sophia.Plant was created as a space to bring together projects, knowledge, experiments, and professional growth within a single digital ecosystem.",
+            action: "Learn about my journey"
+        },
+    
+        projects: {
+            tag: "02 - Projects",
+            title: "Projects in growth",
+            subtitle:
+                "Solutions that represent learning, evolution, and continuous practice.",
+            viewAll: "View all projects",
+    
+            sophiaPlant: {
+                title: "Sophia.Plant",
+                description:
+                    "Personal portfolio built with React, Vite, and a custom Design System to centralize projects, experiences, and professional growth."
+            },
+    
+            greenhouse: {
+                title: "Greenhouse",
+                description:
+                    "Living documentation of the Design System that ensures consistency, accessibility, and scalability throughout the ecosystem."
+            },
+    
+            api: {
+                title: "Spring Boot API",
+                description:
+                    "Project focused on building modern APIs using Java, Spring Boot, and clean architecture practices."
+            },
+    
+            action: "Explore"
+        },
+    
+        technologies: {
+            tag: "03 - Technologies",
+            title: "Technologies I use",
+            subtitle:
+                "Tools used to transform ideas into solutions."
+        },
+    
+        process: {
+            tag: "04 - Process",
+            title: "From idea to product",
+            subtitle:
+                "A structured approach to building quality software.",
+    
+            planning: {
+                title: "Planning",
+                description:
+                    "Understanding the problem, defining goals, and structuring the solution."
+            },
+    
+            design: {
+                title: "Design",
+                description:
+                    "Building the experience through interface design, usability, and visual consistency."
+            },
+    
+            development: {
+                title: "Development",
+                description:
+                    "Implementation focused on code quality, performance, and maintainability."
+            },
+    
+            evolution: {
+                title: "Evolution",
+                description:
+                    "Continuous iteration driven by learning, testing, and feedback."
+            }
+        },
+    
+        footer: {
+            title: "Shall we build something together?",
+            description:
+                "I am always open to new challenges, opportunities, collaborations, and interesting projects.",
+            action: "Get in Touch"
+        },
+        
+    },
     designSystem: {
         hero: {
             tag: "Design System",
@@ -193,16 +294,13 @@ const en = {
             operable: "Operable",
             understandable: "Understandable",
             robust: "Robust",
-            accessibility: {
-                keyboardDescription:
-                    "All primary navigation elements can be accessed and used using only the keyboard."
-            },
+            keyboardDescription: "All primary navigation elements can be accessed and used using only the keyboard."
         },
         footer: {
             title: "A system is never finished.",
             description:
                 "Each new component should exist because it solves a real problem, communicates something important, and keeps the experience consistent.",
-            back: "Back to Garden"
+            back: "Back to Home"
         },
         navigation: {
             greenhouse: "Greenhouse",

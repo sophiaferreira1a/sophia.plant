@@ -16,6 +16,85 @@ const pt = {
         notFound: "Projeto não encontrado",
         back: "Voltar",
     },
+    home: {
+        hero: {
+            title: "Cultivando software com propósito.",
+            description:
+                "Desenvolvedora de Software focada em criar soluções web modernas, acessíveis e sustentáveis utilizando React, Java, Spring Boot e boas práticas de arquitetura.",
+            supportText:
+                "Sophia.Plant é um ecossistema de projetos, aprendizado e crescimento contínuo construído para transformar ideias em experiências digitais relevantes.",
+            projects: "Ver Projetos",
+            contact: "Entrar em Contato",
+            cardTitle:
+                "Construindo soluções em constante evolução.",
+            cardDescription:
+                "Cada projeto é tratado como uma planta em crescimento: planejado com cuidado, desenvolvido com propósito e aprimorado continuamente."
+        },
+    
+        about: {
+            tag: "01 - Sobre",
+            title: "Quem está por trás da Sophia.Plant?",
+            subtitle:
+                "Tecnologia, aprendizado contínuo e construção de soluções.",
+            paragraph1:
+                "Sou estudante e desenvolvedora de software apaixonada por tecnologia, experiência do usuário e resolução de problemas.",
+            paragraph2:
+                "A Sophia.Plant nasceu como um espaço para reunir projetos, conhecimentos, experimentos e evolução profissional em um único ecossistema digital.",
+            action: "Conhecer minha trajetória"
+        },
+    
+        projects: {
+            tag: "02 - Projetos",
+            title: "Projetos em crescimento",
+            subtitle:
+                "Soluções que representam aprendizado, evolução e prática constante.",
+            viewAll: "Ver todos os projetos",
+            action: "Explorar"
+        },
+
+        technologies: {
+            tag: "03 - Tecnologias",
+            title: "Tecnologias que utilizo",
+            subtitle:
+                "Ferramentas utilizadas para transformar ideias em soluções."
+        },
+        process: {
+            tag: "04 - Processo",
+            title: "Da ideia ao produto",
+            subtitle:
+                "Uma abordagem estruturada para construir software de qualidade.",
+        
+            planning: {
+                title: "Planejamento",
+                description:
+                    "Entendimento do problema, definição de objetivos e estruturação da solução."
+            },
+        
+            design: {
+                title: "Design",
+                description:
+                    "Construção da experiência através de interface, usabilidade e consistência visual."
+            },
+        
+            development: {
+                title: "Desenvolvimento",
+                description:
+                    "Implementação focada em qualidade de código, desempenho e manutenção."
+            },
+        
+            evolution: {
+                title: "Evolução",
+                description:
+                    "Iteração contínua baseada em aprendizado, testes e feedback."
+            }
+        },
+        footer: {
+            title: "Vamos construir algo juntos?",
+            description:
+                "Estou sempre aberta a novos desafios, oportunidades, colaborações e projetos interessantes.",
+            action: "Entrar em Contato"
+        },
+    },
     designSystem: {
         hero: {
             tag: "Design System",
@@ -200,14 +279,13 @@ const pt = {
                 "Todos os elementos principais da navegação podem ser acessados e utilizados apenas com teclado."
             },
         
-            
-        
-        },
-        footer: {
-            title: "Um sistema nunca está terminado.",
-            description:
-                "Cada novo componente deve existir porque resolve um problema real, comunica algo importante e mantém a experiência consistente.",
-            back: "Voltar ao Jardim"
+            footer: {
+                title: "Um sistema nunca está terminado.",
+                description:
+                    "Cada novo componente deve existir porque resolve um problema real, comunica algo importante e mantém a experiência consistente.",
+                back: "Voltar ao Início"
+            },
+
         },
         navigation: {
             greenhouse: "Estufa",
