@@ -5,32 +5,14 @@ import Card from "../components/ui/Card";
 import Tag from "../components/ui/Tag";
 import SectionHeader from "../components/ui/SectionHeader";
 import { useLanguage } from "../i18n/useLanguage";
+import { projects } from "../data/projects";
 
 function Home() {
     const { t } = useLanguage();
-    console.log("LANG TEST", t("lang.label"));
-    console.log("FOOTER TEST", t("home.footer.title"));
-    console.log("PROJECT TEST", t("home.projects.action"));
-    const featuredProjects = [
-        {
-            title: "Sophia.Plant",
-            description:
-                "Portfólio pessoal desenvolvido com React, Vite e um Design System próprio para centralizar projetos, experiências e evolução profissional.",
-            href: "/projetos",
-        },
-        {
-            title: "Estufa",
-            description:
-                "Documentação viva do Design System responsável por manter consistência visual, acessibilidade e escalabilidade em todo o ecossistema.",
-            href: "/estufa",
-        },
-        {
-            title: "API Spring Boot",
-            description:
-                "Projeto voltado à construção de APIs modernas utilizando Java, Spring Boot e boas práticas de arquitetura.",
-            href: "/projetos",
-        },
-    ];
+    const lang = t("lang.label") === "PT" ? "pt" : "en";
+    const featuredProjects = projects.filter(
+        (project) => project.featured
+    );
 
     const technologies = [
         "React",
@@ -148,25 +130,25 @@ function Home() {
                     title={t("home.projects.title")}
                     subtitle={t("home.projects.subtitle")}
                 />
-
+                {/* pega os projetos que estão marcados com "true" e exibe eles dinamicamente */}
                 <div className="grid gap-6 lg:grid-cols-3">
                     {featuredProjects.map((project) => (
                         <Card
-                            key={project.title}
+                            key={project.id}
                             tone="cream"
                         >
                             <div className="space-y-4">
                                 <h3 className="font-display text-2xl text-leaf">
-                                    {project.title}
+                                    {project.name[lang]}
                                 </h3>
-
+                    
                                 <p className="text-soil">
-                                    {project.description}
+                                    {project.description[lang]}
                                 </p>
-
-                                <Link to={project.href}>
+                    
+                                <Link to={`/projetos/${project.id}`}>
                                     <Button variant="secondary">
-                                      {t("home.projects.action")}
+                                        {t("home.projects.action")}
                                     </Button>
                                 </Link>
                             </div>
