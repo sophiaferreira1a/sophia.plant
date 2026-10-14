@@ -95,6 +95,126 @@ const pt = {
             action: "Entrar em Contato"
         },
     },
+    about: {
+        hero: {
+            tag: "Sobre Mim",
+            title: "Quem está por trás da Sophia.Plant?",
+            subtitle:
+                "Tecnologia, aprendizado contínuo e construção de soluções com propósito."
+        },
+    
+        profile: {
+            name: "Sophia",
+            role: "Estudante de Engenharia de Software",
+            details: "Brasil • Sophia.Plant"
+        },
+    
+        story: {
+            tag: "01 - História",
+    
+            title:
+                "Aprender é criar espaço para novas possibilidades.",
+    
+            intro:
+                "Sou Sophia Ferreira, estudante de Engenharia de Software. Este portfólio reúne o que estou aprendendo e os projetos que desejo compartilhar.",
+    
+            paragraph1:
+                "Meu interesse por tecnologia surgiu da curiosidade em entender como sistemas funcionam e como eles poderiam melhorar a vida das pessoas.",
+    
+            paragraph2:
+                "Ao longo da minha trajetória encontrei no desenvolvimento de software uma forma de transformar aprendizado em experiências significativas.",
+    
+            paragraph3:
+                "Cada projeto representa uma oportunidade de evoluir tecnicamente, desenvolver pensamento crítico e cultivar novas habilidades.",
+    
+            note:
+                "A Sophia.Plant representa esse processo contínuo de crescimento através da tecnologia."
+        },
+    
+        values: {
+            tag: "02 - Valores",
+    
+            title:
+                "Princípios que orientam meu trabalho",
+    
+            learning: {
+                title: "Aprendizado Contínuo",
+                description:
+                    "Aprender constantemente faz parte da construção de uma carreira sólida em tecnologia."
+            },
+    
+            quality: {
+                title: "Qualidade",
+                description:
+                    "Busco criar soluções organizadas, legíveis e fáceis de evoluir."
+            },
+    
+            accessibility: {
+                title: "Acessibilidade",
+                description:
+                    "Experiências digitais devem ser inclusivas e utilizáveis pelo maior número possível de pessoas."
+            },
+    
+            purpose: {
+                title: "Propósito",
+                description:
+                    "Toda solução deve existir para resolver um problema real."
+            }
+        },
+    
+        stack: {
+            tag: "03 - Tecnologias",
+            title: "Ferramentas que utilizo",
+            subtitle:
+                "Tecnologias que utilizo para transformar ideias em soluções."
+        },
+    
+        timeline: {
+            tag: "04 - Evolução",
+            title: "Uma jornada em construção.",
+    
+            step1: {
+                title: "Primeiros estudos",
+                description:
+                    "Descoberta da lógica de programação e dos fundamentos de desenvolvimento."
+            },
+    
+            step2: {
+                title: "Primeiros projetos",
+                description:
+                    "Construção das primeiras aplicações e consolidação dos conhecimentos adquiridos."
+            },
+    
+            step3: {
+                title: "Sophia.Plant",
+                description:
+                    "Criação de um ecossistema para reunir projetos, experiências e evolução profissional."
+            },
+    
+            step4: {
+                title: "Próximos passos",
+                description:
+                    "Expandir conhecimentos e desenvolver soluções cada vez mais completas."
+            }
+        },
+    
+        goals: {
+            tag: "05 - Objetivos",
+    
+            title:
+                "Para onde estou crescendo?",
+    
+            description:
+                "Busco oportunidades para evoluir como desenvolvedora, colaborar em projetos desafiadores e construir soluções que gerem impacto positivo."
+        },
+    
+        footer: {
+            title: "Conheça meus projetos",
+            description:
+                "A melhor forma de conhecer meu trabalho é explorar as soluções que venho construindo.",
+            action: "Explorar Projetos"
+        }
+    },
     designSystem: {
         hero: {
             tag: "Design System",

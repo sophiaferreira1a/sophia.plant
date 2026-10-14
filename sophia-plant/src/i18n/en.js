@@ -116,6 +116,126 @@ const en = {
         },
         
     },
+    about: {
+        hero: {
+            tag: "About Me",
+            title: "Who is behind Sophia.Plant?",
+            subtitle:
+                "Technology, continuous learning and building solutions with purpose."
+        },
+    
+        profile: {
+            name: "Sophia",
+            role: "Software Engineering Student",
+            details: "Brazil • Sophia.Plant"
+        },
+    
+        story: {
+            tag: "01 - Story",
+    
+            title:
+                "Learning is creating space for new possibilities.",
+    
+            intro:
+                "I'm Sophia Ferreira, a Software Engineering student. This portfolio brings together what I am learning and the projects I want to share.",
+    
+            paragraph1:
+                "My interest in technology started with curiosity about how systems work and how they could improve people's lives.",
+    
+            paragraph2:
+                "Throughout my journey I found software development to be a way of transforming learning into meaningful experiences.",
+    
+            paragraph3:
+                "Each project is an opportunity to evolve technically, strengthen critical thinking and cultivate new skills.",
+    
+            note:
+                "Sophia.Plant represents that continuous growth process through technology."
+        },
+    
+        values: {
+            tag: "02 - Values",
+    
+            title:
+                "Principles that guide my work",
+    
+            learning: {
+                title: "Continuous Learning",
+                description:
+                    "Continuous learning is an essential part of building a strong career in technology."
+            },
+    
+            quality: {
+                title: "Quality",
+                description:
+                    "I strive to create organized, maintainable and easy-to-evolve solutions."
+            },
+    
+            accessibility: {
+                title: "Accessibility",
+                description:
+                    "Digital experiences should be inclusive and usable by everyone."
+            },
+    
+            purpose: {
+                title: "Purpose",
+                description:
+                    "Every solution should exist to solve a real problem."
+            }
+        },
+    
+        stack: {
+            tag: "03 - Technologies",
+            title: "Tools I Use",
+            subtitle:
+                "Technologies I use to transform ideas into solutions."
+        },
+    
+        timeline: {
+            tag: "04 - Growth",
+            title: "A journey under construction.",
+    
+            step1: {
+                title: "First Studies",
+                description:
+                    "Learning programming logic and software development fundamentals."
+            },
+    
+            step2: {
+                title: "First Projects",
+                description:
+                    "Building first applications and consolidating technical knowledge."
+            },
+    
+            step3: {
+                title: "Sophia.Plant",
+                description:
+                    "Creation of an ecosystem to centralize projects, experiences and professional growth."
+            },
+    
+            step4: {
+                title: "Next Steps",
+                description:
+                    "Expanding knowledge and building increasingly complete solutions."
+            }
+        },
+    
+        goals: {
+            tag: "05 - Goals",
+    
+            title:
+                "Where am I growing toward?",
+    
+            description:
+                "I seek opportunities to grow as a developer, collaborate on challenging projects and build solutions that create positive impact."
+        },
+    
+        footer: {
+            title: "Explore My Projects",
+            description:
+                "The best way to learn about my work is by exploring the solutions I have been building.",
+            action: "Explore Projects"
+        }
+    },
     designSystem: {
         hero: {
             tag: "Design System",
