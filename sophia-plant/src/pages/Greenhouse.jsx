@@ -11,6 +11,7 @@ import { useLanguage } from "../i18n/useLanguage";
 import {
     MailIcon,
 } from "../components/icons.jsx";
+import { Link } from "react-router-dom";
 
 
 /* ESTUFA
@@ -131,10 +132,11 @@ const motionTokens = [
                   <p className="max-w-3xl text-soil">
                       {t("designSystem.hero.supportText")}
                   </p>
-
-                  <Button variant="secondary" arrow>
-                      {t("designSystem.hero.back")}
-                  </Button>
+                    <Link to="/projetos">
+                        <Button variant="secondary" arrow>
+                            {t("designSystem.hero.back")}
+                        </Button>
+                    </Link>
                 </div>
 
                 <Card tone="cream">
@@ -475,10 +477,12 @@ const motionTokens = [
                               {t("designSystem.patterns.contactCard.emailDescription")}
                             </p>
                         </div>
-                                      
-                        <Button variant="secondary">
-                            {t("designSystem.patterns.contactCard.action")}
-                        </Button>
+
+                        <Link to="/contato">
+                            <Button variant="secondary">
+                                {t("designSystem.patterns.contactCard.action")}
+                            </Button>
+                        </Link>          
                     </Card>
                                       
                     <Card tone="moss" className="space-y-5">
@@ -586,17 +590,19 @@ const motionTokens = [
 
             <Card tone="petal">
                 <div className="space-y-6">
-                  <h2 className="font-display text-4xl md:text-5xl text-leaf">
+                    <h2 className="font-display text-4xl md:text-5xl text-leaf">
                       {t("designSystem.footer.title")}
-                  </h2>
+                    </h2>
                                             
-                  <p className="max-w-3xl text-soil">
+                    <p className="max-w-3xl text-soil">
                       {t("designSystem.footer.description")}
-                  </p>
-                                            
-                  <Button variant="secondary" arrow>
-                      {t("designSystem.footer.back")}
-                  </Button>
+                     </p>
+
+                    <Link to="/">
+                        <Button variant="secondary" arrow>
+                            {t("designSystem.footer.back")}
+                        </Button>
+                    </Link>
                 </div>
             </Card>
         </main>
