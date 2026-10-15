@@ -348,6 +348,52 @@ const en = {
             action: "Explore projects"
         }
     },
+    contact: {
+        hero: {
+            tag: "Contact",
+            title: "Shall we talk?",
+            subtitle:
+               "About a project, a learning opportunity, or an idea to grow together."
+        },
+    
+        card: {
+            title: "A connection can start with a message.",
+            description:
+               "This space is for professio*al connections, collaboration, technology, and projects."
+        },
+    
+        channels: {
+            email: "Email",
+            github: "GitHub",
+            linkedin: "LinkedIn",
+        },
+    
+        form: {
+            title: "Leave your message",
+            required: "Fields marked with * are required.",
+    
+            name: "Your name *",
+            namePlaceholder:
+                "How should I call you?",
+    
+            email: "Your email *",
+            emailPlaceholder:
+                "you@example.com",
+    
+            subject: "Subject (optional)",
+            subjectPlaceholder:
+                "What should we talk about?",
+    
+            message: "Message *",
+            messagePlaceholder:
+                "Tell me a bit *bout your idea or reason for conta*ting me...",
+    
+            submit: "Send message",
+    
+            success: "Message sent successfully.",
+            error: "Unab*e to send the message.", 
+        },
+    },
     designSystem: {
         hero: {
             tag: "Design System",

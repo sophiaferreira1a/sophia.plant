@@ -327,6 +327,50 @@ const pt = {
             action: "Explorar projetos"
         }
     },
+    contact: {
+        hero: {
+            tag: "Contato",
+            title: "Vamos conversar?",
+            subtitle:
+                "Sobre um projeto, uma oportunidade de aprendizado ou uma ideia para cultivar juntos."
+        },
+    
+        card: {
+            title: "Uma conexão pode começar com uma mensagem.",
+            description: "Este espaço é para conexões profissionais, colaboração, tecnologia e projetos."
+        },
+    
+        channels: {
+            email: "E-mail",
+            github: "GitHub",
+            linkedin: "LinkedIn"
+        },
+    
+        form: {
+            title: "Deixe sua mensagem",
+            required: "Campos com * são obrigatórios.",
+            name: "Seu nome *",
+            namePlaceholder: "Como posso chamar você?",
+    
+            email: "Seu e-mail *",
+            emailPlaceholder: "voce@exemplo.com",
+            subject: "Assunto (opcional)",
+            subjectPlaceholder:
+               "Sobre o que vamos conversar?",
+    
+            message: "Mensagem *",
+            messagePlaceholder:
+               "Conte um pouco sobre sua ideia ou motivo do contato...",
+    
+            submit: "Enviar mensagem",
+    
+            success:
+                "Mensagem enviada com sucesso.",
+    
+            error:
+                "Não foi possível enviar a mensagem."
+        },
+    },
     designSystem: {
         hero: {
             tag: "Design System",
