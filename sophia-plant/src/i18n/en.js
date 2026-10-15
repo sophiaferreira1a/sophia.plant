@@ -236,6 +236,118 @@ const en = {
             action: "Explore Projects"
         }
     },
+    experiences: {
+        hero: {
+            tag: "Experiences",
+            title: "Learning built through practice.",
+            subtitle:
+                "Projects, studies, and experiences that contributed to my growth as a developer."
+        },
+    
+        notice: {
+            text:
+                "Journey in progress. This page brings together academic experiences, learning, projects and certifications that contributed to my education."
+        },
+    
+        timeline: {
+            title: "Education Journey"
+        },
+    
+        education: {
+            tag: "Academic Background",
+    
+            title: "Software Engineering",
+    
+            period: "In progress",
+    
+            institution:
+                "Degree focused on software development, architecture, databases and requirements engineering.",
+    
+            description:
+                "Theoretical foundation used to understand problems, structure solutions and build sustainable systems."
+        },
+    
+        exchangeProgram: {
+            tag: "Exchange Program",
+    
+            title: "Exchange Program at New Mexico Military Institute - NMMI",
+    
+            period: "07/2023 - 10/2023",
+    
+            institution:
+                "Exchange program done at freshman year",
+    
+            description:
+                "Exchange of experiences, languages and learning of subjects as Leadership and Introduction to Programming"
+        },
+    
+        learning: {
+            tag: "Basic Education",
+    
+            title: "Graduation at Tiradentes's School of the Military Police of Minas Gerais",
+    
+            period: "2021- 2025",
+    
+            institution:
+                "",
+    
+            description:
+                "School ranked seventh place on the top ten schools of Belo Horizonte (evaluated by the grades gotten at the High School National Exam)"
+        },
+    
+        sidebar: {
+            title: "What makes a good story?",
+    
+            description:
+                "More than a list of dates, each experience represents context, contribution and learning.",
+    
+            item1: "Context and objective",
+            item2: "Participation and contribution",
+            item3: "Outcome or evidence",
+            item4: "Lessons learned"
+        },
+    
+        resume: {
+            title: "Resume",
+    
+            description:
+                "Summary version of academic journey, projects and developed skills.",
+    
+            status: "Coming soon."
+        },
+    
+        languages: {
+            tag: "05 - Languages",
+            title: "Languages",
+    
+            portuguese: {
+                title: "Portuguese",
+                level: "Native"
+            },
+    
+            english: {
+                title: "English",
+                level: "Advanced"
+            },
+    
+            spanish: {
+                title: "Spanish",
+                level: "Basic"
+            }
+        },
+    
+        certificates: {
+            tag: "06 - Certificates",
+            title: "Certified learning",
+            subtitle:
+                "Courses, learning paths and complementary education."
+        },
+    
+        footer: {
+            title: "Projects give shape to learning.",
+            action: "Explore projects"
+        }
+    },
     designSystem: {
         hero: {
             tag: "Design System",

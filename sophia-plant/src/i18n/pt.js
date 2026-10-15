@@ -32,7 +32,7 @@ const pt = {
         },
     
         about: {
-            tag: "01 - Sobre",
+            tag: "Sobre",
             title: "Quem está por trás da Sophia.Plant?",
             subtitle:
                 "Tecnologia, aprendizado contínuo e construção de soluções.",
@@ -44,7 +44,7 @@ const pt = {
         },
     
         projects: {
-            tag: "02 - Projetos",
+            tag: "Projetos",
             title: "Projetos em crescimento",
             subtitle:
                 "Soluções que representam aprendizado, evolução e prática constante.",
@@ -53,13 +53,13 @@ const pt = {
         },
 
         technologies: {
-            tag: "03 - Tecnologias",
+            tag: "Tecnologias",
             title: "Tecnologias que utilizo",
             subtitle:
                 "Ferramentas utilizadas para transformar ideias em soluções."
         },
         process: {
-            tag: "04 - Processo",
+            tag: "Processo",
             title: "Da ideia ao produto",
             subtitle:
                 "Uma abordagem estruturada para construir software de qualidade.",
@@ -110,7 +110,7 @@ const pt = {
         },
     
         story: {
-            tag: "01 - História",
+            tag: "História",
     
             title:
                 "Aprender é criar espaço para novas possibilidades.",
@@ -132,7 +132,7 @@ const pt = {
         },
     
         values: {
-            tag: "02 - Valores",
+            tag: "Valores",
     
             title:
                 "Princípios que orientam meu trabalho",
@@ -163,14 +163,14 @@ const pt = {
         },
     
         stack: {
-            tag: "03 - Tecnologias",
+            tag: "Tecnologias",
             title: "Ferramentas que utilizo",
             subtitle:
                 "Tecnologias que utilizo para transformar ideias em soluções."
         },
     
         timeline: {
-            tag: "04 - Evolução",
+            tag: "Evolução",
             title: "Uma jornada em construção.",
     
             step1: {
@@ -199,7 +199,7 @@ const pt = {
         },
     
         goals: {
-            tag: "05 - Objetivos",
+            tag: "Objetivos",
     
             title:
                 "Para onde estou crescendo?",
@@ -215,6 +215,118 @@ const pt = {
             action: "Explorar Projetos"
         }
     },
+    experiences: {
+        hero: {
+            tag: "Experiências",
+            title: "Aprendizado construído na prática.",
+            subtitle:
+                "Projetos, estudos e experiências que contribuíram para minha evolução como desenvolvedora."
+        },
+    
+        notice: {
+            text:
+                "Trajetória em evolução. Esta página reúne experiências acadêmicas, aprendizados, projetos e certificações que contribuíram para minha formação."
+        },
+    
+        timeline: {
+            title: "Etapas de formação",
+        },
+    
+        education: {
+            tag: "Formação Acadêmica",
+    
+            title: "Engenharia de Software",
+    
+            period: "2026 - Atualmente",
+    
+            institution:
+                "Graduação voltada ao desenvolvimento de software, arquitetura, banco de dados e engenharia de requisitos.",
+    
+            description:
+                "Base teórica utilizada para compreender problemas, estruturar soluções e construir sistemas de forma sustentável."
+        },
+    
+        exchangeProgram: {
+            tag: "Intercâmbio",
+    
+            title: "Intercâmbio no Instituto Militar do Novo México - NMMI",
+    
+            period: "07/2023 - 10/2023",
+    
+            institution:
+                "Intercâmbio realizado no primeiro ano do EM",
+    
+            description:
+                "Troca de experiências, línguas e aprendizado de conteúdos como Liderança e Introdução à Programação"
+        },
+    
+        learning: {
+            tag: "Educação Básica",
+    
+            title: "Graduação no Colégio Tiradentes da Polícia Militar de Minas Gerais",
+    
+            period: "2021 - 2025",
+    
+            institution:
+                "",
+    
+            description:
+                "Colégio em sétimo lugar no ranking das 10 melhores escolas de Belo Horizonte (avaliados pela nota do Exame Nacional do Ensino Médio)"
+        },
+    
+        sidebar: {
+            title: "O que conta uma boa história?",
+    
+            description:
+                "Mais do que uma lista de datas, cada experiência representa contexto, contribuição e aprendizado.",
+    
+            item1: "Contexto e objetivo",
+            item2: "Participação e contribuição",
+            item3: "Resultado ou evidência",
+            item4: "Aprendizados adquiridos"
+        },
+    
+        resume: {
+            title: "Currículo",
+    
+            description:
+                "Versão resumida da trajetória acadêmica, projetos e competências desenvolvidas.",
+    
+            status: "Disponível em breve."
+        },
+    
+        languages: {
+            tag: "Idiomas",
+            title: "Idiomas",
+    
+            portuguese: {
+                title: "Português",
+                level: "Nativo"
+            },
+    
+            english: {
+                title: "Inglês",
+                level: "Avançado"
+            },
+    
+            spanish: {
+                title: "Espanhol",
+                level: "Básico"
+            }
+        },
+    
+        certificates: {
+            tag: "Certificados",
+            title: "Aprendizados certificados",
+            subtitle:
+                "Cursos, trilhas e formações complementares concluídas."
+        },
+    
+        footer: {
+            title: "Os projetos dão forma aos aprendizados.",
+            action: "Explorar projetos"
+        }
+    },
     designSystem: {
         hero: {
             tag: "Design System",
@@ -227,7 +339,7 @@ const pt = {
         },
     
         architecture: {
-            tag: "01 - Arquitetura",
+            tag: "Arquitetura",
             title: "Das raízes às páginas",
             subtitle:
                 "Cada camada herda a anterior e acrescenta contexto ao ecossistema.",
@@ -255,7 +367,7 @@ const pt = {
         },
     
         foundations: {
-            tag: "02 - Fundações",
+            tag: "Fundações",
             title: "Marca, Cor e Tipografia",
             subtitle:
                 "A identidade que sustenta toda a experiência.",
@@ -305,7 +417,7 @@ const pt = {
         },
     
         tokens: {
-            tag: "03 - Design Tokens",
+            tag: "Design Tokens",
             title: "Tokens essenciais",
             subtitle:
                 "Valores reutilizáveis que conectam intenção e interface.",
@@ -317,7 +429,7 @@ const pt = {
         },
     
         components: {
-            tag: "04 - Componentes",
+            tag: "Componentes",
             title:
                 "Componentes que cultivam consistência",
     
@@ -342,7 +454,7 @@ const pt = {
         },
     
         patterns: {
-            tag: "05 - Padrões",
+            tag: "Padrões",
             title:
                 "Padrões que organizam o jardim",
     
@@ -381,7 +493,7 @@ const pt = {
         },
     
         accessibility: {
-            tag: "06 - Acessibilidade",
+            tag: "Acessibilidade",
             title:
                 "Cuidado que inclui pessoas",
             subtitle:
