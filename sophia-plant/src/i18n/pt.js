@@ -9,13 +9,6 @@ const pt = {
         home: "Início",
         greenhouse: "Estufa",
     },
-    projects: {
-        title: "Jardim de projetos",
-        subtitle: "Toque numa planta para ver o projeto",
-        viewMore: "Ver mais",
-        notFound: "Projeto não encontrado",
-        back: "Voltar",
-    },
     home: {
         hero: {
             title: "Cultivando software com propósito.",
@@ -111,7 +104,7 @@ const pt = {
     
         story: {
             tag: "História",
-    
+            
             title:
                 "Aprender é criar espaço para novas possibilidades.",
     
@@ -124,7 +117,7 @@ const pt = {
             paragraph2:
                 "Ao longo da minha trajetória encontrei no desenvolvimento de software uma forma de transformar aprendizado em experiências significativas.",
     
-            paragraph3:
+                paragraph3:
                 "Cada projeto representa uma oportunidade de evoluir tecnicamente, desenvolver pensamento crítico e cultivar novas habilidades.",
     
             note:
@@ -176,15 +169,15 @@ const pt = {
             step1: {
                 title: "Primeiros estudos",
                 description:
-                    "Descoberta da lógica de programação e dos fundamentos de desenvolvimento."
+                "Descoberta da lógica de programação e dos fundamentos de desenvolvimento."
             },
     
             step2: {
                 title: "Primeiros projetos",
                 description:
                     "Construção das primeiras aplicações e consolidação dos conhecimentos adquiridos."
-            },
-    
+                },
+                
             step3: {
                 title: "Sophia.Plant",
                 description:
@@ -206,13 +199,65 @@ const pt = {
     
             description:
                 "Busco oportunidades para evoluir como desenvolvedora, colaborar em projetos desafiadores e construir soluções que gerem impacto positivo."
-        },
+            },
     
         footer: {
             title: "Conheça meus projetos",
             description:
                 "A melhor forma de conhecer meu trabalho é explorar as soluções que venho construindo.",
             action: "Explorar Projetos"
+        }
+    },
+    projects: {
+        notFound: "Projeto não encontrado",
+        back: "Voltar",
+        hero: {
+            tag: "Projetos",
+            title: "Meu jardim de projetos",
+            subtitle:
+                "Cada planta representa um projeto e seu momento de desenvolvimento."
+        },
+    
+        guide: {
+            title: "Como ler este jardim"
+        },
+    
+        stages: {
+            seed: {
+                title: "Semente",
+                description:
+                    "Ideia definida, ainda em planejamento."
+            },
+    
+            sprout: {
+                title: "Broto",
+                description:
+                    "Em desenvolvimento, com primeiras versões."
+            },
+    
+            flower: {
+                title: "Flor",
+                description:
+                    "Versão concluída, aberta a novos cuidados."
+            }
+        },
+    
+        filters: {
+            all: "Todos",
+            seed: "Semente",
+            sprout: "Broto",
+            flower: "Flor",
+            search: "Buscar projeto...",
+            result: "projeto",
+            results: "projetos",
+        },
+    
+        explore: "Explorar projeto",
+    
+        footer: {
+            title: "Um jardim nunca está terminado.",
+            description:
+                "Cada projeto pode mudar de estágio à medida que novas versões, aprendizados e melhorias aparecem."
         }
     },
     experiences: {
@@ -334,7 +379,7 @@ const pt = {
             subtitle:
                 "Sobre um projeto, uma oportunidade de aprendizado ou uma ideia para cultivar juntos."
         },
-    
+        
         card: {
             title: "Uma conexão pode começar com uma mensagem.",
             description: "Este espaço é para conexões profissionais, colaboração, tecnologia e projetos."

@@ -8,13 +8,6 @@ const en = {
         home: "Home",
         greenhouse: "Greenhouse",
     },
-    projects: {
-        title: "Project's Garden",
-        subtitle: "Tap a plant to see the project",
-        viewMore: "View more",
-        notFound: "Project not found",
-        back: "Back",
-    },
     home: {
         hero: {
             title: "Growing software with purpose.",
@@ -234,6 +227,58 @@ const en = {
             description:
                 "The best way to learn about my work is by exploring the solutions I have been building.",
             action: "Explore Projects"
+        }
+    },
+    projects: {
+        notFound: "Project not found",
+        back: "Back",
+        hero: {
+            tag: "Projects",
+            title: "My project's garden",
+            subtitle:
+                "Each plant represents a project and its stage of growth."
+        },
+    
+        guide: {
+            title: "How to read this garden"
+        },
+    
+        stages: {
+            seed: {
+                title: "Seed",
+                description:
+                    "Defined idea, still in planning."
+            },
+    
+            sprout: {
+                title: "Sprout",
+                description:
+                    "Under development, with early versions."
+            },
+    
+            flower: {
+                title: "Flower",
+                description:
+                    "Completed version, open to future improvements."
+            }
+        },
+    
+        filters: {
+            all: "All",
+            seed: "Seed",
+            sprout: "Sprout",
+            flower: "Flower",
+            search: "Search project...",
+            result: "project",
+            results: "projects",
+        },
+    
+        explore: "Explore project",
+    
+        footer: {
+            title: "A garden is never finished.",
+            description:
+                "Projects evolve through new versions, learning, and improvements."
         }
     },
     experiences: {
