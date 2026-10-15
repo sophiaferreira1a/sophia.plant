@@ -3,6 +3,8 @@
 import { useState } from "react";
 import {NavLink} from "react-router-dom";
 import {useLanguage} from "../i18n/useLanguage" 
+import logo from "../assets/plants/flower.svg";
+import { Link } from "react-router-dom";
 
 const links = [ /*dados do menu de renderização. (Pra mudar um texto do menu, tem que mexer no dicionário - menu.about) */
     {to: "/", key: "menu.home", end: true}, /* sem o end, essa rota ficaria "ativa" também em /sobre */
@@ -23,7 +25,20 @@ export default function Header() {
     return(
         <header className = "bg-cream border-b border-sprout sticky top-0 z-50"> {/*Gruda no topo, por cima dos outros elementos */}
             <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-                <NavLink to="/" className="text-xl font-bold text-leaf">sophia.plant</NavLink>
+            <Link
+                to="/"
+                className="flex items-center gap-3"
+            >
+                <img
+                    src={logo}
+                    alt="Sophia.Plant"
+                    className="h-8 w-8"
+                />
+            
+                <span className="text-xl font-bold text-leaf">
+                    Sophia.Plant
+                </span>
+            </Link>
                 <nav className="hidden md:flex gap-2">  
                     {links.map((link) => ( /* O hidden esconde o menu horizontal no celular, mas mostra no desktop */
                         <NavLink key={link.to} to={link.to} end={link.end} className={linkClass}> {t(link.key)}</NavLink>
@@ -46,4 +61,6 @@ export default function Header() {
         </header>
     );
 }
+
+
 

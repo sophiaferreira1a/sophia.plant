@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import logo from "../assets/sophia-plant_logo.png";
 import Button from "../components/ui/Button";
 import Card from "../components/ui/Card";
 import Tag from "../components/ui/Tag";
@@ -82,7 +82,12 @@ function Home() {
                 </div>
 
                 <Card tone="cream">
-                    <div className="flex h-full flex-col justify-center space-y-4">
+                    <div className="flex h-full flex-col items-center justify-center space-y-4">
+                        <img
+                            src={logo}
+                            alt="Sophia.Plant"
+                            className="h-55 w-55"
+                        />
                         <h2 className="font-display text-3xl text-leaf">
                           {t("home.hero.cardTitle")}
                         </h2>

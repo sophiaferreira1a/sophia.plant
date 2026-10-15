@@ -105,9 +105,9 @@ function About() {
 
                 <div className="space-y-8">
                     <div>
-                        <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-soil">
+                        <div className="mb-3 text-sm font-semibold udivpercase tracking-wider text-soil">
                             <Tag>{t("about.story.tag")}</Tag>
-                        </p>
+                        </div>
 
                         <h1 className="font-display text-5xl text-leaf">
                             {t("about.story.title")}
