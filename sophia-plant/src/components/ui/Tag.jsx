@@ -1,7 +1,13 @@
-export default function Tag({ children, className = "" }) {
+function Tag({ children, className = "" }) {
     return (
-        <span className={`inline-flex items-center rounded-full border border-soil/40 bg-sand/40 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-soil ${className}`}>
-            {children}
-        </span>
+        <div className={`inline-flex flex-col ${className}`}>
+            <span className="text-sm font-semibold uppercase tracking-wider text-soil">
+                {children}
+            </span>
+
+            <span className="mt-2 h-1 w-12 rounded-full bg-leaf" />
+        </div>
     );
 }
+
+export default Tag;
