@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { projects } from "../data/projects.js";
 import { maturityImages } from "../data/maturity.js";
 import { useLanguage } from "../i18n/useLanguage.js";
+import ProjectPreview from "../components/ProjectPreview";
 
 export default function ProjectDetails() {
   const { id } = useParams(); //pega o id da url
@@ -12,7 +13,7 @@ export default function ProjectDetails() {
   if (!project) { //evita rodar se não há dados
     return (
       <div className="text-center py-16">
-        <p className="text-xl mb-4">{t("projects.notFound")}</p> 
+        <p className="text-xl mb-4">{t("projects.notFound")}</p>
         <Link to="/projetos" className="text-leaf underline">{t("projects.back")}</Link>
       </div>
     );
@@ -32,7 +33,19 @@ export default function ProjectDetails() {
         </div>
       </div>
 
-      <img src={project.image} alt={project.name[lang]} className="w-full rounded-2xl border border-sprout my-6" />
+          <div className="my-6 grid gap-4 sm:grid-cols-2">
+      {(project.images?.length ? project.images : [null]).map((img, i) => (
+        <ProjectPreview
+          key={i}
+          image={img}
+          alt={`${project.name[lang]} ${i + 1}`}
+          lang={lang}
+          className="h-64"
+          rounded="rounded-2xl"
+          emojiSize="text-4xl"
+        />
+      ))}
+    </div>
 
       <p className="text-lg leading-relaxed mb-6">{project.description[lang]}</p>
 
@@ -42,6 +55,6 @@ export default function ProjectDetails() {
 
       {/* abre o github e o noreferrer faz com que não receba a referência da página */}
       <a href={project.github} target="_blank" rel="noreferrer" className="inline-block bg-leaf text-cream px-6 py-2.5 rounded-lg font-semibold hover:bg-soil transition-colors"> GitHub</a>
-    </article> 
+    </article>
   );
 }
